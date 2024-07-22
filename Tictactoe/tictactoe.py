@@ -2,7 +2,6 @@ import tkinter as tk
 from tkinter import messagebox
 import random
 
-# Initialize the board
 board = [' ' for _ in range(9)]
 
 def check_winner(board, player):
@@ -92,7 +91,6 @@ class TicTacToe:
         self.create_buttons()
 
     def create_widgets(self):
-        # Difficulty selector
         difficulty_frame = tk.Frame(self.root)
         difficulty_frame.pack()
 
